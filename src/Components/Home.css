@@ -1,0 +1,66 @@
+@import url('https://fonts.cdnfonts.com/css/vic');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VIC', sans-serif;
+    font-weight: 300;
+
+}
+
+.container{
+   margin-inline: auto;
+    max-width: 1180px;
+}
+
+body{
+  
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+input , textarea{
+    display: block;
+    margin: 20px 90px;
+    width:80%;
+    height: 50px;
+    border-style: none;
+    outline: none;
+    font-size: 20px;
+      border-bottom: 0.2px solid black;
+}
+
+textarea{
+    height: 100px;
+    align-content: center;   
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 0.2px solid black;
+}
+
+
+.main-section{
+    padding: 40px 100px;
+    justify-content: center;
+       /* background: url(https://wallpapers.com/images/hd/blush-background-jxkn2pewgzu2o314.jpg); */
+}
+
+.submit-button{
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 90px;
+    background-color: black;
+    padding: 10px ;
+    transition: 0.2s ease-in-out;
+}
+
+.submit-button:hover{
+   color: gold;
+   cursor: pointer;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.cdnfonts.com/css/vic');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VIC', sans-serif;
+    font-weight: 300;
+
+}
+
+.container{
+   margin-inline: auto;
+    max-width: 1180px;
+}
+
+body{
+  
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.task-conatiner{
+     width: 80%;
+     padding-left: 180px;
+     /* margin-left: 90px; */
+    /* margin: 0px 300px; */
+    
+}
+.m-height{
+    margin-top: 10px;
+}
+
+.item-conatiner{
+    max-width: 1100px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.button{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(179, 2, 2);
+    padding: 5px 10px ;
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover{
+   color: #fefefe;
+   cursor: pointer;
+}
